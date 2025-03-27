@@ -1,0 +1,99 @@
+check version -  
+git --version
+
+make directory - 
+mkdir
+
+to move into directory - 
+cd abc 
+
+to move out of the directory - 
+cd ..
+
+convert directory into local repo - 
+git init
+
+to check root dir - 
+~ (root directory)
+
+create/edit a file - 
+nano abc 
+
+to exit or come to main directory - 
+q, ctrl + x
+
+to check file in a directory - 
+ls 
+
+to check all files including hidden files - 
+ls -a (all files)
+
+* .git (is a directory file) *
+
+to set universal credentials -  
+git config --global.credential.helper wincred  (available inside git to store credentials)
+git config --global user.name "Akash Mishra"
+git config --global user.email akashthegreatmishra@outlook.com 
+git config --list (to list all credentials)
+
+clone repo - 
+git clone https://github.com/AkashMishra95/Test.git (from remote to local using https)
+
+check status - 
+git status
+
+add a file (Stage)- 
+git add abc
+
+add whole files - 
+git add --all , git add . 
+
+commit changes - 
+git commit -m (m for giving an argument when making changes(commit))
+
+unstage a file -
+git reset abc 
+
+remove a file from stage but keep it in local/working directory - 
+git rm --cached abc 
+
+check branch - 
+git branch
+
+create a branch - 
+git branch abc
+
+add remote repo(if not set) - 
+git remote add origin url 
+
+to check remote repo - 
+git remote -v
+
+push changes from local to remote repo - 
+git push origin main/master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
